@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysAllowTeleport", "ValhiemMods\AlwaysAllowTeleport.csproj", "{6490BC0A-9323-40BF-BAE0-83FAF87F999E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterRemover", "WaterRemover\WaterRemover.csproj", "{5EC5F031-DE90-47C2-9BCD-8684461CF751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysAllowTeleport", "AlwaysAllowTeleport\AlwaysAllowTeleport.csproj", "{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6490BC0A-9323-40BF-BAE0-83FAF87F999E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6490BC0A-9323-40BF-BAE0-83FAF87F999E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6490BC0A-9323-40BF-BAE0-83FAF87F999E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6490BC0A-9323-40BF-BAE0-83FAF87F999E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5EC5F031-DE90-47C2-9BCD-8684461CF751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5EC5F031-DE90-47C2-9BCD-8684461CF751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EC5F031-DE90-47C2-9BCD-8684461CF751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EC5F031-DE90-47C2-9BCD-8684461CF751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6490BC0A-9323-40BF-BAE0-83FAF87F999E}</ProjectGuid>
+    <ProjectGuid>{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AlwaysAllowTeleport</RootNamespace>
