@@ -23,7 +23,7 @@ namespace WaterRemover
             }
             if (Vars.WaterRestorerLoopActive)
             {
-                __instance.m_canSwim = true;
+                __instance.m_canSwim = true;//
             }
         }
     }

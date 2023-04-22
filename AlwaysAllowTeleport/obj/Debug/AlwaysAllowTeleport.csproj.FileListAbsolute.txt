@@ -1,0 +1,6 @@
+C:\Users\Jacoby\source\repos\ValhiemMods\AlwaysAllowTeleport\bin\Debug\AlwaysAllowTeleport.dll
+C:\Users\Jacoby\source\repos\ValhiemMods\AlwaysAllowTeleport\bin\Debug\AlwaysAllowTeleport.pdb
+C:\Users\Jacoby\source\repos\ValhiemMods\AlwaysAllowTeleport\obj\Debug\AlwaysAllowTeleport.csproj.AssemblyReference.cache
+C:\Users\Jacoby\source\repos\ValhiemMods\AlwaysAllowTeleport\obj\Debug\AlwaysAllowTeleport.csproj.CoreCompileInputs.cache
+C:\Users\Jacoby\source\repos\ValhiemMods\AlwaysAllowTeleport\obj\Debug\AlwaysAllowTeleport.dll
+C:\Users\Jacoby\source\repos\ValhiemMods\AlwaysAllowTeleport\obj\Debug\AlwaysAllowTeleport.pdb
