@@ -5,8 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using HarmonyLib;
 using System.Reflection;
+using System.Collections;
 using System.IO;
 using UnityEngine;
+using UnityStandardAssets;
 
 namespace WaterRemover
 {
@@ -23,7 +25,7 @@ namespace WaterRemover
             }
             if (Vars.WaterRestorerLoopActive)
             {
-                __instance.m_canSwim = true;//
+                __instance.m_canSwim = true;
             }
         }
     }

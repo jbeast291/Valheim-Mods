@@ -36,19 +36,17 @@ namespace WaterRemover
 
         public void Update()
         {
-            
+
             if (Input.GetKeyDown(KeyCode.F9))
             {
                 RemoveWater();
-                if(!Vars.WaterRemoverLoopActive)
+                if (!Vars.WaterRemoverLoopActive)
                 {
                     Vars.WaterRemoverLoopActive = true;
-                    StartCoroutine(RemoveWaterLoop());
                 }
                 if (Vars.WaterRestorerLoopActive)
                 {
                     Vars.WaterRestorerLoopActive = false;
-                    StopCoroutine(RestoreWaterLoop());
                 }
             }
             if (Input.GetKeyDown(KeyCode.F10))
@@ -57,19 +55,17 @@ namespace WaterRemover
                 if (!Vars.WaterRestorerLoopActive)
                 {
                     Vars.WaterRestorerLoopActive = true;
-                    StartCoroutine(RestoreWaterLoop());
                 }
                 if (Vars.WaterRemoverLoopActive)
                 {
                     Vars.WaterRemoverLoopActive = false;
-                    StopCoroutine(RemoveWaterLoop());
                 }
             }
         }
         public void RemoveWater()
         {
-            Debug.Log("Removed Water");
-            for (int i = 0; i < 20; i++)
+            int Count = 0;
+            for (int i = 0; i < 40; i++)
             {
                 GameObject Water;
                 Water = GameObject.Find("Water");
@@ -77,15 +73,17 @@ namespace WaterRemover
                 {
                     continue;
                 }
+                Count++;
                 Water.transform.GetChild(0).gameObject.SetActive(false);
                 Water.transform.GetChild(1).gameObject.SetActive(false);
                 Water.name = "WaterDISABLED";
             }
+            Logger.LogInfo($"Removed {Count} water tiles");
         }
         public void RestoreWater()
         {
-            Debug.Log("Restored Water");
-            for (int i = 0; i < 20; i++)
+            int Count = 0;
+            for (int i = 0; i < 40; i++)
             {
                 GameObject Water;
                 Water = GameObject.Find("WaterDISABLED");
@@ -93,30 +91,13 @@ namespace WaterRemover
                 {
                     continue;
                 }
+                Count++;
                 Water.transform.GetChild(0).gameObject.SetActive(true);
                 Water.transform.GetChild(1).gameObject.SetActive(true);
                 Water.name = "Water";
+                
             }
+            Logger.LogInfo($"Restored {Count} water tiles");
         }
-        IEnumerator RemoveWaterLoop()
-        {
-            yield return new WaitForSeconds(10);
-            if (!Vars.WaterRemoverLoopActive)
-            {
-                yield break;
-            }
-            RemoveWater();
-            StartCoroutine(RemoveWaterLoop());
-        }
-        IEnumerator RestoreWaterLoop()
-        {
-            yield return new WaitForSeconds(10);
-            if (!Vars.WaterRestorerLoopActive)
-            {
-                yield break;
-            }
-            RestoreWater();
-            StartCoroutine(RestoreWaterLoop());
-        } 
     }
 }

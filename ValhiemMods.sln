@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterRemover", "WaterRemove
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysAllowTeleport", "AlwaysAllowTeleport\AlwaysAllowTeleport.csproj", "{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishLagFix", "FishLagFix\FishLagFix.csproj", "{EC6F8305-1936-4BFF-870D-62C543D780B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345FC2EF-AD61-4AD6-B8AE-64ECD8B0AB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6F8305-1936-4BFF-870D-62C543D780B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6F8305-1936-4BFF-870D-62C543D780B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6F8305-1936-4BFF-870D-62C543D780B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6F8305-1936-4BFF-870D-62C543D780B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
